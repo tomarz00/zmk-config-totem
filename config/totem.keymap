@@ -110,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &bt BT_CLR      &none     &kp UP        &none      &none     &kp MINUS         &kp EQUAL          &none   &none  &none
-                &kp LCTRL       &kp LEFT  &kp DOWN      &kp RIGHT  &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none  &kp SQT
-&bt BT_CLR_ALL  &kp LEFT_SHIFT  &none     &none         &none      &none     &kp BACKSLASH     &none              &none   &none  &none    &trans
-                                          &kp LEFT_WIN  &trans     &trans    &mo ADJ           &none              &trans
+       &none           &none     &kp UP        &none      &none    &kp MINUS         &kp EQUAL          &none   &none  &none
+       &kp LCTRL       &kp LEFT  &kp DOWN      &kp RIGHT  &none    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none  &kp SQT
+&none  &kp LEFT_SHIFT  &none     &none         &none      &none    &kp BACKSLASH     &none              &none   &none  &none    &trans
+                                 &kp LEFT_WIN  &trans     &none    &to 3             &none              &trans
             >;
         };
 
@@ -162,10 +162,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &none   &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans  &trans  &trans    &trans  &kp C   &kp F2  &kp F3  &kp F10  &trans
-                                 &trans  &trans  &trans    &trans  &trans  &trans
+        &sys_reset   &bt BT_CLR  &none   &trans  &trans    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+        &bootloader  &bt BT_NXT  &trans  &trans  &trans    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&trans  &trans       &bt BT_PRV  &trans  &trans  &trans    &kp F11  &kp F12  &none   &none   &none    &trans
+                                 &trans  &trans  &trans    &trans   &trans   &trans
             >;
         };
 
