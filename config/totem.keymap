@@ -110,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none           &none     &kp UP        &none      &tog 3    &kp MINUS         &kp EQUAL          &none   &none  &none
-       &kp LCTRL       &kp LEFT  &kp DOWN      &kp RIGHT  &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none  &kp SQT
-&none  &kp LEFT_SHIFT  &none     &none         &none      &none     &kp BACKSLASH     &none              &none   &none  &none    &trans
-                                 &kp LEFT_WIN  &trans     &none     &mo 3             &none              &trans
+       &none           &none     &kp UP        &none      &none    &kp MINUS         &kp EQUAL          &none   &none  &none
+       &kp LCTRL       &kp LEFT  &kp DOWN      &kp RIGHT  &none    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none  &kp SQT
+&none  &kp LEFT_SHIFT  &none     &none         &none      &none    &kp BACKSLASH     &none              &none   &none  &none    &trans
+                                 &kp LEFT_WIN  &trans     &none    &mo 3             &none              &trans
             >;
         };
 
