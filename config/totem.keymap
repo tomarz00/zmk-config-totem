@@ -145,9 +145,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none  &none  &none  &none    &none  &mkp MB1        &mmv MOVE_UP    &mkp MB3        &msc SCRL_UP
-       &none  &none  &none  &none  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &msc SCRL_DOWN
-&none  &none  &none  &none  &none  &none    &none  &none           &none           &none           &none           &none
+       &none  &none  &none  &none  &none    &none  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc SCRL_UP
+       &none  &none  &none  &none  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN
+&none  &none  &none  &none  &none  &none    &none  &none           &none           &none            &none           &none
                      &none  &none  &none    &none  &none           &none
             >;
         };
