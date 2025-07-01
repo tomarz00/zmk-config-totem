@@ -119,10 +119,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none           &kp UP_ARROW    &none      &none                   &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_CLR
-       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none                   &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_NXT
-&none  &none  &none           &none           &none      &none                   &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_PRV  &bt BT_CLR_ALL
-                              &none           &none      &mt LEFT_SHIFT SPACE    &none   &none    &none
+       &none  &none           &kp UP_ARROW    &none      &none    &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_CLR
+       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none    &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_NXT
+&none  &none  &none           &none           &none      &none    &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_PRV  &bt BT_CLR_ALL
+                              &none           &none      &mo 3    &none   &none    &none
             >;
         };
 
@@ -145,10 +145,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none  &none  &none  &none    &none  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc SCRL_UP
-       &none  &none  &none  &none  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN
-&none  &none  &none  &none  &none  &none    &none  &none           &none           &none            &none           &none
-                     &none  &none  &none    &none  &none           &none
+       &none  &none  &mkp MB1  &mkp MB2  &mkp MB3    &none  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc SCRL_UP
+       &none  &none  &none     &none     &none       &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN
+&none  &none  &none  &none     &none     &none       &none  &none           &none           &none            &none           &none
+                     &none     &none     &none       &none  &none           &none
             >;
         };
 
